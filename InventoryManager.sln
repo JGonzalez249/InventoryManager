@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManager.WinForm", "InventoryManager.WinForm\InventoryManager.WinForm.csproj", "{861BED8B-6C12-4227-B410-E29A96582958}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManager.Data", "InventoryManager.Data\InventoryManager.Data.csproj", "{D9A16EDA-E1DD-463B-B61D-18F6A1BB5B07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManager.Data", "InventoryManager.Data\InventoryManager.Data.csproj", "{D9A16EDA-E1DD-463B-B61D-18F6A1BB5B07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
