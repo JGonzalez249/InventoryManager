@@ -33,6 +33,9 @@ namespace InventoryManager.WinForm.Forms
             {
                 mIsWorldLoaded = value;
                 mainTabControl.Enabled = mIsWorldLoaded;
+                saveAsToolStripMenuItem.Enabled = mIsWorldLoaded;
+                saveToolStripMenuItem.Enabled = mIsWorldLoaded;
+
             }
         }
 
