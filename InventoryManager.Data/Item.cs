@@ -8,5 +8,6 @@ namespace InventoryManager.Data
 
         public string Name { get; set; }
 
+        public int Weight { get; set;  }
     }
 }
