@@ -59,7 +59,15 @@ namespace InventoryManager.WinForm.ViewModels
                 serializer.Serialize(jsonWriter, mWorld);
             }
         }
+        public void RemoveItem(Item item)
+        {
+            foreach (Player player in Players)
+            {
+                player.Inventory.Remove(item);
+            }
 
+            Items.Remove(item);
+        }
 
         private World mWorld;
     }
